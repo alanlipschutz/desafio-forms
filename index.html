@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script async src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <form class="my-form">
+      <label class="seccion">
+        <span>Nombre</span>
+        <input class="cuadro-inputs" type="text" />
+      </label>
+      <section class="seccion">
+        <span>De lo aprendido hasta ahora, ¿qué tema te gustó más?</span>
+        <select class="cuadro-inputs" name="opciones">
+          <option value="clases">Clases</option>
+          <option value="html">HTML</option>
+          <option value="javascript">Javascript</option>
+        </select>
+      </section>
+      <section>
+        <span class="titulo">Preferís estudiar</span>
+        <label>
+          <input type="radio" />
+          <span>De día</span>
+        </label>
+        <label>
+          <input type="radio" />
+          <span>De noche</span>
+        </label>
+      </section>
+      <section class="seccion">
+        <span>¿Cuales fueron los temas más complejos hasta ahora?</span>
+        <label>
+          <input type="checkbox" />
+          <span>Typescript</span>
+        </label>
+        <label>
+          <input type="checkbox" />
+          <span>Promesas</span>
+        </label>
+        <label>
+          <input type="checkbox" />
+          <span>Clases</span>
+        </label>
+        <label>
+          <input type="checkbox" />
+          <span>Funciones</span>
+        </label>
+      </section>
+      <button class="button" type="submit">Enviar</button>
+    </form>
+  </body>
+</html>

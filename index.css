@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.my-form {
+  display: flex;
+  max-width: 600px;
+  flex-direction: column;
+  padding: 40px 50px;
+  gap: 22px;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-size: 18px;
+  border: 10px black solid;
+}
+
+.seccion {
+  display: grid;
+  gap: 8px;
+}
+
+.titulo {
+  display: block;
+  padding-bottom: 16px;
+}
+
+.cuadro-inputs {
+  width: 60%;
+  height: 40px;
+}
+
+.button {
+  margin: 10px 0;
+  width: 40%;
+  height: 60px;
+}
