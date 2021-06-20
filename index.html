@@ -12,7 +12,7 @@
     <form class="my-form">
       <label class="seccion">
         <span>Nombre</span>
-        <input class="cuadro-inputs" type="text" />
+        <input name="nombre" class="cuadro-inputs" type="text" />
       </label>
       <section class="seccion">
         <span>De lo aprendido hasta ahora, ¿qué tema te gustó más?</span>
@@ -25,30 +25,30 @@
       <section>
         <span class="titulo">Preferís estudiar</span>
         <label>
-          <input type="radio" />
+          <input name="momento" type="radio" value="dia" />
           <span>De día</span>
         </label>
         <label>
-          <input type="radio" />
+          <input name="momento" type="radio" value="noche" />
           <span>De noche</span>
         </label>
       </section>
       <section class="seccion">
         <span>¿Cuales fueron los temas más complejos hasta ahora?</span>
         <label>
-          <input type="checkbox" />
+          <input name="temas" type="checkbox" value="typescript" />
           <span>Typescript</span>
         </label>
         <label>
-          <input type="checkbox" />
+          <input name="temas" type="checkbox" value="promesas" />
           <span>Promesas</span>
         </label>
         <label>
-          <input type="checkbox" />
+          <input name="temas" type="checkbox" value="clases" />
           <span>Clases</span>
         </label>
         <label>
-          <input type="checkbox" />
+          <input name="temas" type="checkbox" value="funciones" />
           <span>Funciones</span>
         </label>
       </section>
